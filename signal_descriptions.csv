@@ -1,0 +1,28 @@
+Signal, Description
+Index, Time since start of session [s]
+Time, Unix timestamp [s]
+Host_vx, Host vehicle longitudinal velocity [m/s]
+Host_yawrate, Host vehicle yawrate [rad/s]
+Host_ax, Host vehicle longitudinal acceleration [m/s²]
+Host_theta_steeringwheel, Host vehicle steering wheel angle [rad]
+Host_gps_lon, Host vehicle gps info longitude coordinate
+Host_gps_lat, Host vehicle gps info latitude coordinate
+Host_gps_alt, Host vehicle gps altitude in [m]
+Host_lane_width, Host vehicle lane width [m]
+Host_line_left_quality, Host vehicle lane quality
+Host_line_left_c0, Host vehicle lane parameter c0 offset
+Host_line_left_c1, Host vehicle lane parameter c1 linear term
+Host_line_left_c2, Host vehicle lane parameter c2 quadratic term
+Host_line_left_c3, Host vehicle lane parameter c3 power 3 term
+Host_line_right_quality, Host vehicle lane quality
+Host_line_right_c0, Host vehicle lane parameter c0 offset
+Host_line_right_c1, Host vehicle lane parameter c1 linear term
+Host_line_right_c2, Host vehicle lane parameter c2 quadratic term
+Host_line_right_c3, Host vehicle lane parameter c3 power 3 term
+Target_X_id, Object current id.
+Target_X_age, Object current age that represents the time the object is in sight [s]
+Target_X_dx, Object x-distance i.e. the distance in longitudinal direction [m]
+Target_X_dy, Object y-distance i.e. the distance in lateral direction [m]
+Target_X_theta, Object angle w.r.t. host i.e. the angle of the target with host velocity vector [rad]
+Target_X_vx, Object relative to host x-velocity [m/s]
+Target_X_ax, Object relative to host x-acceleration [m/(s^2)]
